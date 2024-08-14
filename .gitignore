@@ -1,0 +1,22 @@
+### PyCharm ###
+
+.idea/
+
+### VisualStudioCode ###
+
+.vscode/
+
+
+# Игнорировать все файлы в папке log/
+log/*
+
+# За исключением файла exception.log
+!log/log_analyzer.log
+
+# Environments
+venv/
+.venv/
+
+# Unit test / coverage reports
+coverage/
+*.coverage
