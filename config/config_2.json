@@ -1,0 +1,1 @@
+{"TEMPLATE_PATH": "./reports/report.html", "REPORT_SIZE": 2000, "REPORT_DIR": "./reports", "LOG_DIR": "./log", "ERRORS_LIMIT_PERC": 5, "SELF_LOG_PATH": "./log/log_analyzer.log", "DEBUG_MODE": false, "TEST_SIZE": 1000}
