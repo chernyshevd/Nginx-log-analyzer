@@ -20,3 +20,8 @@ venv/
 # Unit test / coverage reports
 coverage/
 *.coverage
+
+### Other ###
+.DS_Store
+*pylint.svg
+.pylintrc
