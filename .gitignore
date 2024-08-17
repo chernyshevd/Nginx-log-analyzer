@@ -25,3 +25,4 @@ coverage/
 .DS_Store
 *pylint.svg
 .pylintrc
+__pycache__
