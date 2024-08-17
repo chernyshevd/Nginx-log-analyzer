@@ -13,8 +13,9 @@ import statistics
 import string
 import structlog
 import sys
-from typing import Dict, List
+from typing import Dict, List, Optional, Any, Union
 from collections import defaultdict
+
 
 config = {
     'TEMPLATE_PATH': './reports/report.html',  # Шаблон исходного отчета
@@ -39,7 +40,7 @@ def parser_args() -> Dict[str, str]:
     return args.config
 
 
-def get_result_config(default_config: Dict[str, str], config_path: str) -> Dict[str, str]:
+def get_result_config(default_config: Dict[str, str], config_path: str) -> Optional[Dict[str, str]]:
     """Получим результирующий конфиг"""
     try:
         with open(config_path, 'r') as config_file:
@@ -48,7 +49,7 @@ def get_result_config(default_config: Dict[str, str], config_path: str) -> Dict[
     except ValueError:
         return None
 
-def logger_func(name: str, log_level: int = logging.DEBUG, stdout: bool = True, file: str = None) -> logging.Logger:
+def logger_func(name: str, log_level: int = logging.DEBUG, stdout: bool = True, file: Optional[str] = None) -> logging.Logger:
     """
     Создаем логгер
     """
@@ -79,7 +80,7 @@ def logger_func(name: str, log_level: int = logging.DEBUG, stdout: bool = True, 
     logging.getLogger().addHandler(stdout_handler)
     return logger
 
-def search_last_log(log_dir: str, logger: logging.Logger) -> Dict[str, str]:
+def search_last_log(log_dir: str, logger: logging.Logger) -> Optional[Dict[str, Any]]:
     '''
     Функция крайнего файла логгирования.
 
@@ -142,7 +143,7 @@ def get_report_path(report_dir, last_log, logger):
         return report_path
 
 
-def parsing_line(line: str, logger: logging.Logger) -> Dict[str, str]:
+def parsing_line(line: str, logger: logging.Logger) -> Dict[str, Any]:
     regex = re.compile(r'(?:GET|POST|HEAD|PUT|OPTIONS|DELETE).(.*).HTTP/.* (\d{1,6}[.]\d+)')
     try:
         res_regex = regex.search(line)
@@ -162,7 +163,7 @@ def parsing_line(line: str, logger: logging.Logger) -> Dict[str, str]:
     return res
 
 
-def log_statistic_calc(latest_log: Dict, result_config: Dict, logger: logging.Logger) -> List[Dict]:
+def log_statistic_calc(latest_log: Dict, result_config: Dict, logger: logging.Logger) -> Optional[List[Dict]]:
 
     log_path = latest_log['log_path']
     log_file = latest_log['log_file']

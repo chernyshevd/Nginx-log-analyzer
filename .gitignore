@@ -14,7 +14,7 @@ log/*
 !log/log_analyzer.log
 
 # Environments
-venv/
+myenv/
 .venv/
 
 # Unit test / coverage reports

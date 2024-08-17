@@ -1,0 +1,15 @@
+stages:
+  - lint
+  - test
+
+lint:
+  stage: lint
+  script:
+    - black --check .
+    - isort --check-only .
+    - mypy .
+
+test:
+  stage: test
+  script:
+    - pytest

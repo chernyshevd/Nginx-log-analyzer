@@ -265,3 +265,135 @@ DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:0
 INFO:__main__:{"event": "2613774 logs were found in the file log/nginx-access-ui.log-20170630.gz", "level": "info", "timestamp": "2024-08-11T07:34:45.186723Z"}
 INFO:__main__:{"event": "88 logs were not parsed", "level": "info", "timestamp": "2024-08-11T07:34:45.186833Z"}
 INFO:__main__:{"event": "The report reports/report-2017.06.30.html has been generated!", "level": "info", "timestamp": "2024-08-11T07:34:49.411907Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-17T18:31:16.548857Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-17T18:31:16.551963Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:31:16.552012Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:31:16.564250Z"}
+INFO:__main__:{"event": "The report-2017.06.30.html report already exists", "level": "info", "timestamp": "2024-08-17T18:31:16.564371Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-17T18:32:41.150793Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-17T18:32:41.151594Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:32:41.151642Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:32:41.153722Z"}
+INFO:__main__:{"event": "The report-2017.06.30.html report already exists", "level": "info", "timestamp": "2024-08-17T18:32:41.153819Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-17T18:32:58.616036Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-17T18:32:58.616613Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:32:58.616665Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:32:58.618477Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-17T18:32:58.618578Z"}
+INFO:__main__:{"event": "100 logs were found in the file log/nginx-access-ui.log-20170630.gz", "level": "info", "timestamp": "2024-08-17T18:32:58.622482Z"}
+INFO:__main__:{"event": "0 logs were not parsed", "level": "info", "timestamp": "2024-08-17T18:32:58.622549Z"}
+INFO:__main__:{"event": "The report reports/report-2017.06.30.html has been generated!", "level": "info", "timestamp": "2024-08-17T18:32:58.633501Z"}
+INFO:__main__:{"event": "Config path ./config/config_2.json", "level": "info", "timestamp": "2024-08-17T18:33:37.795812Z"}
+INFO:__main__:{"event": "DEBUG_MODE False", "level": "info", "timestamp": "2024-08-17T18:33:37.796342Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:33:37.796390Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:33:37.799689Z"}
+INFO:__main__:{"event": "The report-2017.06.30.html report already exists", "level": "info", "timestamp": "2024-08-17T18:33:37.799788Z"}
+INFO:__main__:{"event": "Config path ./config/config_2.json", "level": "info", "timestamp": "2024-08-17T18:33:49.861264Z"}
+INFO:__main__:{"event": "DEBUG_MODE False", "level": "info", "timestamp": "2024-08-17T18:33:49.864896Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:33:49.864945Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:33:49.867757Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-17T18:33:49.867851Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:03:59:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:49.912333Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:04:15:18 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:49.994227Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:04:32:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.083171Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:04:34:39 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.092625Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:04:51:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.184350Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:05:07:25 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.257398Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:05:24:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.325869Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:05:40:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.388090Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:05:57:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.460107Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:06:13:21 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.536869Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:06:30:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.637768Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:06:47:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.717046Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:07:04:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.816129Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:07:20:22 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.905697Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:07:37:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:50.996961Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:07:54:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.093426Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:08:10:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.150703Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:08:26:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.234535Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:08:42:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.336149Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:08:58:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.427391Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:09:14:17 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.002\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.516889Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:09:31:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.626727Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:09:48:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.005\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.725067Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:10:05:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.002\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.830482Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:10:22:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:51.938925Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:10:38:22 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.045939Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:10:55:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.156864Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:11:11:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.243909Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:11:28:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.351769Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:11:44:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.457714Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:12:00:23 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.573772Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:12:15:17 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.683247Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:12:32:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.789545Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:12:49:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.901305Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:13:05:19 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:52.999662Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:13:22:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.002\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.119875Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:13:38:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.231362Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:13:55:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.360245Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:14:12:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.473496Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:14:27:21 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.567487Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:14:44:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.667656Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:14:59:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.770164Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:15:15:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.879332Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:15:31:19 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:53.996310Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:15:47:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.094080Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:16:03:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.201491Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:16:19:24 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.310655Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:16:36:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.003\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.410184Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:16:53:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.529958Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:17:10:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.628246Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:17:27:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.002\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.745779Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:17:43:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.002\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.850265Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:17:59:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:54.966644Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:18:15:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.080812Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:18:31:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.178200Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:18:47:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.277165Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:19:03:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.372472Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:19:19:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.471653Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:19:35:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.563117Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:19:51:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.638002Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:20:06:21 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.717841Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:20:21:23 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.807610Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:20:38:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.902722Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:20:54:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:55.990841Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:21:10:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.003\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.066336Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:21:26:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.152421Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:21:41:17 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.229598Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:21:57:25 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.317888Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:22:14:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.413124Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:22:30:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.478160Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:22:45:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.544796Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:23:00:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.609248Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:23:16:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.666316Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:23:31:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.733737Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [29/Jun/2017:23:47:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.792888Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:00:03:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.864857Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:00:19:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.002\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.942730Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:00:35:15 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:56.994293Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:00:51:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.042914Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:01:07:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.100338Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:01:23:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.163729Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:01:39:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.235741Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:01:55:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.306527Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:02:12:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.438405Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:02:29:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.511014Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:02:46:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.574168Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:03:03:16 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.001\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.642958Z"}
+DEBUG:__main__:{"event": "Record parsing error: 1.202.56.176 -  - [30/Jun/2017:03:20:14 +0300] \"0\" 400 166 \"-\" \"-\" \"-\" \"-\" \"-\" 0.000\n", "level": "debug", "timestamp": "2024-08-17T18:33:57.714151Z"}
+INFO:__main__:{"event": "2613774 logs were found in the file log/nginx-access-ui.log-20170630.gz", "level": "info", "timestamp": "2024-08-17T18:33:57.749195Z"}
+INFO:__main__:{"event": "88 logs were not parsed", "level": "info", "timestamp": "2024-08-17T18:33:57.749301Z"}
+INFO:__main__:{"event": "The report reports/report-2017.06.30.html has been generated!", "level": "info", "timestamp": "2024-08-17T18:34:00.754369Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-17T18:34:16.211020Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-17T18:34:16.211598Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:34:16.211649Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:34:16.215069Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-17T18:34:16.215159Z"}
+INFO:__main__:{"event": "100 logs were found in the file log/nginx-access-ui.log-20170630.gz", "level": "info", "timestamp": "2024-08-17T18:34:16.215838Z"}
+INFO:__main__:{"event": "0 logs were not parsed", "level": "info", "timestamp": "2024-08-17T18:34:16.215882Z"}
+INFO:__main__:{"event": "The report reports/report-2017.06.30.html has been generated!", "level": "info", "timestamp": "2024-08-17T18:34:16.217393Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-17T18:40:29.268106Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-17T18:40:29.269738Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:40:29.269789Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:40:29.273106Z"}
+INFO:__main__:{"event": "The report-2017.06.30.html report already exists", "level": "info", "timestamp": "2024-08-17T18:40:29.273231Z"}
