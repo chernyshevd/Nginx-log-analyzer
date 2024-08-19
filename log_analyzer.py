@@ -174,29 +174,30 @@ def log_statistic_calc(latest_log: Dict, result_config: Dict, logger: logging.Lo
     url_time_list = defaultdict(list)
 
     try:
-        log_file = gzip.open(log_path, 'rb') if log_file == '.gz' else open(log_path, 'rb')
+        opening_func = gzip.open if log_file == '.gz' else open
     except OSError:
         logger.error(f'The {log_path} file does not open')
 
-    for line in log_file:
+    with opening_func(log_path, 'rb') as log_file:
+        for line in log_file:
 
-        if result_config['DEBUG_MODE'] and logs_cnt == result_config['TEST_SIZE']:
-            break
-        logs_cnt += 1
-        line = line.decode('utf-8')
-        parsed_line = parsing_line(line, logger)
-        if parsed_line['parsing_status'] == 'error':
-            logger.error('Error parsing logs')
-            return None
-        elif parsed_line['parsing_status'] == 'not_parsed':
-            not_parsed_line += 1
-            continue
+            if result_config['DEBUG_MODE'] and logs_cnt == result_config['TEST_SIZE']:
+                break
+            logs_cnt += 1
+            line = line.decode('utf-8')
+            parsed_line = parsing_line(line, logger)
+            if parsed_line['parsing_status'] == 'error':
+                logger.error('Error parsing logs')
+                return None
+            elif parsed_line['parsing_status'] == 'not_parsed':
+                not_parsed_line += 1
+                continue
 
-        url = parsed_line['url']
-        request_time = parsed_line['request_time']
-        time_sum_all_req += request_time
+            url = parsed_line['url']
+            request_time = parsed_line['request_time']
+            time_sum_all_req += request_time
 
-        url_time_list[url].append(request_time)
+            url_time_list[url].append(request_time)
     url_stat = {}
 
     logger.info(f'{logs_cnt} logs were found in the file {log_path}')
@@ -265,19 +266,24 @@ def main():
 
     latest_log = search_last_log(result_config['LOG_DIR'], logger)
 
-    report_path = get_report_path(result_config["REPORT_DIR"], latest_log, logger)
+    if latest_log is not None:
 
-    if report_path is not None:
+        report_path = get_report_path(result_config["REPORT_DIR"], latest_log, logger)
 
-        try:
-            logs_statistic = log_statistic_calc(latest_log, result_config, logger)
-        except Exception:
-            logger.error('Emergency termination of the program!!!')
+        if report_path is not None:
 
-        if logs_statistic is None:
-            logger.debug('Statistics are empty!')
-        else:
-            html_report_writer(result_config, report_path, logs_statistic, logger)
+            try:
+                logs_statistic = log_statistic_calc(latest_log, result_config, logger)
+
+                if logs_statistic is None:
+                    logger.debug('Statistics are empty!')
+                else:
+                    html_report_writer(result_config, report_path, logs_statistic, logger)
+
+            except Exception:
+                logger.error('Emergency termination of the program!!!')
+
+
 
 if __name__ == "__main__":
     try:

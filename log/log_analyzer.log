@@ -397,3 +397,54 @@ INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-0
 INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-17T18:40:29.269789Z"}
 INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-17T18:40:29.273106Z"}
 INFO:__main__:{"event": "The report-2017.06.30.html report already exists", "level": "info", "timestamp": "2024-08-17T18:40:29.273231Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-19T18:38:28.111693Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-19T18:38:28.118170Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-19T18:38:28.118288Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-19T18:38:28.139222Z"}
+INFO:__main__:{"event": "The report-2017.06.30.html report already exists", "level": "info", "timestamp": "2024-08-19T18:38:28.140067Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-19T18:51:06.373799Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-19T18:51:06.375085Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-19T18:51:06.375168Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-19T18:51:06.381405Z"}
+INFO:__main__:{"event": "The report-2017.06.30.html report already exists", "level": "info", "timestamp": "2024-08-19T18:51:06.381571Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-19T18:51:22.310442Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-19T18:51:22.310954Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-19T18:51:22.311002Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-19T18:51:22.312810Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-19T18:51:22.312901Z"}
+ERROR:__main__:{"event": "Emergency termination of the program!!!", "level": "error", "timestamp": "2024-08-19T18:51:22.316547Z"}
+ERROR:root:cannot access local variable 'logs_statistic' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/dmitry.chernyshev/PycharmProjects/study/python_developer_professional/hw_1/nginx-log-analyzer/log_analyzer.py", line 289, in <module>
+    main()
+  File "/Users/dmitry.chernyshev/PycharmProjects/study/python_developer_professional/hw_1/nginx-log-analyzer/log_analyzer.py", line 282, in main
+    if logs_statistic is None:
+       ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'logs_statistic' where it is not associated with a value
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-19T18:54:05.770961Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-19T18:54:05.774286Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-19T18:54:05.774415Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-19T18:54:05.782498Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-19T18:54:05.782811Z"}
+ERROR:__main__:{"event": "Emergency termination of the program!!!", "level": "error", "timestamp": "2024-08-19T18:54:05.785317Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-19T18:58:04.288689Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-19T18:58:04.289650Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-19T18:58:04.289710Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-19T18:58:04.292723Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-19T18:58:04.292835Z"}
+ERROR:__main__:{"event": "Emergency termination of the program!!!", "level": "error", "timestamp": "2024-08-19T18:58:05.132463Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-19T18:59:49.071396Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-19T18:59:49.074719Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-19T18:59:49.074792Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-19T18:59:49.079301Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-19T18:59:49.079465Z"}
+INFO:__main__:{"event": "The log/nginx-access-ui.log-20170630.gz file was read", "level": "info", "timestamp": "2024-08-19T18:59:49.877806Z"}
+ERROR:__main__:{"event": "Emergency termination of the program!!!", "level": "error", "timestamp": "2024-08-19T18:59:49.877979Z"}
+INFO:__main__:{"event": "Config path ./config/config.json", "level": "info", "timestamp": "2024-08-19T19:06:49.000566Z"}
+INFO:__main__:{"event": "DEBUG_MODE True", "level": "info", "timestamp": "2024-08-19T19:06:49.001573Z"}
+INFO:__main__:{"event": "Search logs in directory ./log", "level": "info", "timestamp": "2024-08-19T19:06:49.001632Z"}
+INFO:__main__:{"event": "The logs log/nginx-access-ui.log-20170630.gz was found", "level": "info", "timestamp": "2024-08-19T19:06:49.004620Z"}
+INFO:__main__:{"event": "The report will be saved to the report-2017.06.30.html file", "level": "info", "timestamp": "2024-08-19T19:06:49.004736Z"}
+INFO:__main__:{"event": "100 logs were found in the file log/nginx-access-ui.log-20170630.gz", "level": "info", "timestamp": "2024-08-19T19:06:49.005828Z"}
+INFO:__main__:{"event": "0 logs were not parsed", "level": "info", "timestamp": "2024-08-19T19:06:49.005887Z"}
+INFO:__main__:{"event": "The report reports/report-2017.06.30.html has been generated!", "level": "info", "timestamp": "2024-08-19T19:06:49.011931Z"}
