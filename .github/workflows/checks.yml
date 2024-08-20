@@ -20,3 +20,6 @@ jobs:
       - name: Install Dependencies
         run: |
           poetry install
+      - name: Run tests
+        run: |
+          poetry run pytest

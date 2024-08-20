@@ -8,9 +8,9 @@ from log_analyzer import logger_func, search_last_log, parsing_line, get_report_
 logger = logger_func('test')
 
 def test_search_last_log():
-    expected_log_path = 'latest_log/nginx-access-ui.log-20180730'
+    expected_log_path = 'tests/latest_log/nginx-access-ui.log-20180730'
     expected_date = datetime.datetime(2018, 7, 30, 0, 0)
-    log_dict = search_last_log('latest_log', logger)
+    log_dict = search_last_log('tests/latest_log', logger)
     log_path = str(log_dict['log_path'])
     log_date = log_dict['log_date']
     log_file = log_dict['log_file']
